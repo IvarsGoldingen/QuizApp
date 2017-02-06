@@ -1,0 +1,108 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="devider">
+        <item name="android:layout_height">@dimen/devider_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/devider_color</item>
+    </style>
+    <style name="radio_group_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="answer_radio_button_style">
+        <item name="android:buttonTint">@color/check_box_thick_color</item>
+        <item name="android:textColor">@color/question_color</item>
+        <item name="android:textSize">@dimen/question_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:padding">@dimen/question_padding</item>
+    </style>
+    <style name="question_style">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/question_color</item>
+        <item name="android:textSize">@dimen/question_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:padding">@dimen/question_padding</item>
+    </style>
+    <style name="answer_picture_layout_style">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="info_picture_layout_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="check_box_nest_layout_style">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="check_box_style">
+        <item name="android:buttonTint">@color/check_box_thick_color</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="info_picture_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">150dp</item>
+    </style>
+    <style name="picture_description_style">
+        <item name="android:textColor">@color/info_text_color</item>
+        <item name="android:textSize">@dimen/picture_description_text_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:padding">@dimen/info_text_padding</item>
+    </style>
+    <style name="title_text_style">
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">@dimen/title_padding</item>
+    </style>
+    <style name="info_field_style">
+        <item name="android:textColor">@color/info_text_color</item>
+        <item name="android:textSize">@dimen/info_text_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">@dimen/info_text_padding</item>
+    </style>
+    <style name="button_style">
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:background">@color/button_color</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/button_margin_sides</item>
+        <item name="android:layout_marginRight">@dimen/button_margin_sides</item>
+        <item name="android:layout_marginTop">@dimen/button_margin_top_bottom</item>
+        <item name="android:layout_marginBottom">@dimen/button_margin_top_bottom</item>
+        <item name="android:textColor">@color/regularTextColor</item>
+    </style>
+</resources>

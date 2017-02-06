@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="title_string">QUIZ\nHow much do you know about Kudīga?</string>
+    <string name="information">info</string>
+    <string name="test">test</string>
+    <string name="info_field1">Kuldīga is a town in western Latvia.
+        It is the center of Kuldīga Municipality with a population of approximately 13,500.
+        Kuldīga was first mentioned in 1242. Kuldīga is the pearl of Kurzeme, Latvia\'s western region. It is an ancient town with unique,
+        distinctive architecture.
+        The small River Alekšupīte runs through the very centre of the Kuldīga old town, along the walls of the houses.
+        A 4.5 m high waterfall on the Alekšupīte is the highest in Latvia.
+        The pride of Kuldīga is the Venta waterfall, a 240-meter wide natural waterfall which is the widest in Europe.
+        Not far from the waterfall there is the Kuldīga brick bridge built in 1874, one of the longest bridges of this type in Europe.
+    </string>
+    <string name="flag">Flag</string>
+    <string name="bridge">Bridge</string>
+    <string name="coat_of_arms">Coat of arms</string>
+    <string name="back">back</string>
+    <string name="more_info">Find out more</string>
+    <string name="wiki">https://en.wikipedia.org/wiki/Kuldīga</string>
+    <string name="question1">What is the population of Kuldīga?</string>
+    <string name="answer1.1">11000</string>
+    <string name="answer1.2">13500</string>
+    <string name="answer1.3">6 and a chicken</string>
+    <string name="question2">What is Kuldīga known for?</string>
+    <string name="answer2.1">Having a chicken </string>
+    <string name="answer2.2">The widest waterfall in Europe(240 meters wide)</string>
+    <string name="answer2.3">Ivars - the great Android programmer :D</string>
+    <string name="question3">An old structure that Kuldiga is known for is...</string>
+    <string name="answer3.1">Was Eiffel Tower there??? Write your answer here</string>
+    <string name="question4">Which pictures or picture are/is symbols of Kuldīga?</string>
+    <string name="question5">In which country is Kuldīga located?</string>
+    <string name="answer5.1">Zimbabve</string>
+    <string name="answer5.2">Republic of Chickenoslavia</string>
+    <string name="answer5.3">Latvia</string>
+    <string name="press_the_chicken">Press on the chicken to see your score</string>
+    <string name="acceptable_answer1">bridge</string>
+    <string name="acceptable_answer2">old bridge</string>
+    <string name="acceptable_answer3">brick bridge</string>
+    <string name="main_menu">main menu</string>
+    <string name="you_got">You got</string>
+    <string name="out_of">out of</string>
+
+</resources>

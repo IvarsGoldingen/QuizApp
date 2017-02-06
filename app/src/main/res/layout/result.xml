@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:scaleType="fitCenter"
+            android:src="@drawable/happy"
+            android:id="@+id/face"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/face_image_height" />
+        <TextView
+            style="@style/title_text_style"
+            tools:text="You got 5 out of 5"
+            android:id="@+id/you_got_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RatingBar
+            android:isIndicator="true"
+            android:id="@+id/rating"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Base.Widget.AppCompat.RatingBar"
+            android:numStars="5"
+            tools:rating="4"
+            android:stepSize="1"/>
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/go_to_main_menu"
+            style="@style/button_style"
+            android:text="@string/main_menu" />
+    </LinearLayout>
+</ScrollView>

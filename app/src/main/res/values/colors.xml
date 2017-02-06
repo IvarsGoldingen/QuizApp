@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="title_color">#024600</color>
+    <color name="regularTextColor">#305007</color>
+    <color name="button_color">#e7f24e</color>
+
+    <color name="info_text_color">#000000</color>
+    <color name="question_color">#188e03</color>
+    <color name="answer_style">#061e01</color>
+
+    <color name="check_box_thick_color">#224d1a</color>
+    <color name="finish_text_color">#070430</color>
+    <color name="devider_color">#4ef933</color>
+
+
+</resources>
