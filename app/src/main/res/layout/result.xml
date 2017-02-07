@@ -30,6 +30,10 @@
             android:numStars="5"
             tools:rating="4"
             android:stepSize="1"/>
+        <TextView
+            style="@style/correct_answers_style"
+            android:id="@+id/wrong_answers_textview"
+            tools:text="What is the population of Kuldīga?\n13500"/>
         <Button
             android:layout_gravity="center"
             android:id="@+id/go_to_main_menu"

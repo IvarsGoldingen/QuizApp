@@ -94,6 +94,15 @@
         <item name="android:gravity">center_horizontal</item>
         <item name="android:padding">@dimen/info_text_padding</item>
     </style>
+    <style name="correct_answers_style">
+        <item name="android:textColor">@color/info_text_color</item>
+        <item name="android:textSize">@dimen/correct_answer_text_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/correct_answer_text_padding</item>
+    </style>
     <style name="button_style">
         <item name="android:textSize">@dimen/button_text_size</item>
         <item name="android:background">@color/button_color</item>

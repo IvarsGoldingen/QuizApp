@@ -22,6 +22,32 @@ public class ResultActivity extends AppCompatActivity{
         setContentView(R.layout.result);
         Bundle extras = getIntent().getExtras();
         int correctAnswers = extras.getInt("correctAnswers");
+        boolean[] correctAnswerArray = extras.getBooleanArray("questionArray");
+
+        if (correctAnswers<5){
+            String answers="The right answers:";
+            if (correctAnswerArray[0]==false){
+                answers+="\n1. "+getResources().getString(R.string.question1)+"\n"+getResources().getString(R.string.answer1_2);
+            }
+            if (correctAnswerArray[1]==false){
+                answers+="\n2. "+getResources().getString(R.string.question2)+"\n"+getResources().getString(R.string.answer2_2);
+            }
+            if (correctAnswerArray[2]==false){
+                answers+="\n3. "+getResources().getString(R.string.question3)+"\n"+getResources().getString(R.string.acceptable_answer1);
+            }
+            if (correctAnswerArray[3]==false){
+                answers+="\n4. "+getResources().getString(R.string.question4)+"\n"+getResources().getString(R.string.answer4);
+            }
+            if (correctAnswerArray[4]==false){
+                answers+="\n5. "+getResources().getString(R.string.question5)+"\n"+getResources().getString(R.string.answer5_3);
+            }
+            TextView wrongAnsweresText = (TextView)findViewById(R.id.wrong_answers_textview);
+            wrongAnsweresText.setText(answers);
+        }
+
+
+
+
 
         RatingBar testRating = (RatingBar)findViewById(R.id.rating);
         testRating.setRating(correctAnswers);

@@ -18,7 +18,8 @@
     <dimen name="chicken_button_height">120dp</dimen>
     <dimen name="devider_height">1dp</dimen>
     <dimen name="face_image_height">200dp</dimen>
-
+    <dimen name="correct_answer_text_size">16sp</dimen>
+    <dimen name="correct_answer_text_padding">10dp</dimen>
 
 
 

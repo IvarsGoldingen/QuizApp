@@ -26,9 +26,9 @@
     <string name="answer2.1">Having a chicken </string>
     <string name="answer2.2">The widest waterfall in Europe(240 meters wide)</string>
     <string name="answer2.3">Ivars - the great Android programmer :D</string>
-    <string name="question3">An old structure that Kuldiga is known for is...</string>
+    <string name="question3">An old structure that Kuldiga is known for is the...</string>
     <string name="answer3.1">Was Eiffel Tower there??? Write your answer here</string>
-    <string name="question4">Which pictures or picture are/is symbols of Kuldīga?</string>
+    <string name="question4">Which pictures or picture are symbols of Kuldīga?</string>
     <string name="question5">In which country is Kuldīga located?</string>
     <string name="answer5.1">Zimbabve</string>
     <string name="answer5.2">Republic of Chickenoslavia</string>
@@ -40,5 +40,6 @@
     <string name="main_menu">main menu</string>
     <string name="you_got">You got</string>
     <string name="out_of">out of</string>
+    <string name="answer4">You had to choose both: the flag and coat of arms pictures</string>
 
 </resources>
