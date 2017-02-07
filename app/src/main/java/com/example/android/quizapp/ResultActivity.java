@@ -25,7 +25,7 @@ public class ResultActivity extends AppCompatActivity{
         boolean[] correctAnswerArray = extras.getBooleanArray("questionArray");
 
         if (correctAnswers<5){
-            String answers="The right answers:";
+            String answers=getResources().getString(R.string.correct_answers_title);
             if (correctAnswerArray[0]==false){
                 answers+="\n1. "+getResources().getString(R.string.question1)+"\n"+getResources().getString(R.string.answer1_2);
             }

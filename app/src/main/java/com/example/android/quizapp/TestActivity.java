@@ -70,7 +70,6 @@ public class TestActivity extends AppCompatActivity {
                 else {
                     questionArray[4]=false;
                 }
-
                 resultIntent.putExtra("questionArray", questionArray);
                 resultIntent.putExtra("correctAnswers",correctAnswers);
                 startActivity(resultIntent);

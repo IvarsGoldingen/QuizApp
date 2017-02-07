@@ -41,5 +41,6 @@
     <string name="you_got">You got</string>
     <string name="out_of">out of</string>
     <string name="answer4">You had to choose both: the flag and coat of arms pictures</string>
+    <string name="correct_answers_title">The right answers:</string>
 
 </resources>
